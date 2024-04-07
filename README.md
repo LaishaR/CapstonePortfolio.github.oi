@@ -6,9 +6,9 @@ In the Fall of 2021, I started my journey in the Computer Science program while 
 
 #	What have you learned while in the program? List three of the most important concepts or skills you have learned.
 Throughout my academic journey in the program, I have gained valuable knowledge and skills in various aspects of computer science and software engineering. Three of the most important concepts or skills I have learned include:
-    1. Mobile Application Development: I have learned how to design, develop, and deploy mobile applications using languages such as Java and tools like the Android SDK. This includes understanding mobile-specific design patterns, user interface development, and integration of features such as location services and sensors.
-    2. Algorithm Design and Analysis: I have acquired a solid understanding of fundamental algorithms and data structures, as well as techniques for designing efficient algorithms to solve complex problems. This includes topics such as sorting algorithms, graph algorithms, dynamic programming, and algorithmic complexity analysis.
-    3. Database Management: I have learned about relational database management systems (RDBMS) and SQL, including database design, normalization, querying, and optimization. Additionally, I have gained experience in integrating databases into software applications to persistently store and manage data.
+- Mobile Application Development: I have learned how to design, develop, and deploy mobile applications using languages such as Java and tools like the Android SDK. This includes understanding mobile-specific design patterns, user interface development, and integration of features such as location services and sensors.
+-  Algorithm Design and Analysis: I have acquired a solid understanding of fundamental algorithms and data structures, as well as techniques for designing efficient algorithms to solve complex problems. This includes topics such as sorting algorithms, graph algorithms, dynamic programming, and algorithmic complexity analysis.
+-  Database Management: I have learned about relational database management systems (RDBMS) and SQL, including database design, normalization, querying, and optimization. Additionally, I have gained experience in integrating databases into software applications to persistently store and manage data.
 
 # Discuss the specific skills you aim to demonstrate through your enhancements to reach each of the course outcomes.
 
