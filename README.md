@@ -1,4 +1,5 @@
-# CapstonePortfolio.github.oi
+# My Capstone Project
+This github.io website contains the capstone project for my CS-499 class at Southern New Hampshire University. The assignment was to take a final project from a previous class and enhance it in three areas: software design, data structures and algorithms, and databases.
 
 # About me 
 
