@@ -11,6 +11,11 @@ Throughout my academic journey in the program, I have gained valuable knowledge 
 -  Database Management: I have learned about relational database management systems (RDBMS) and SQL, including database design, normalization, querying, and optimization. Additionally, I have gained experience in integrating databases into software applications to persistently store and manage data.
 
 # Discuss the specific skills you aim to demonstrate through your enhancements to reach each of the course outcomes.
+For each of the course outcomes, I aim to demonstrate the following specific skills through my enhancements:
+-	Employ strategies for building collaborative environments: I will demonstrate collaboration skills by effectively communicating with team members, incorporating feedback, and coordinating tasks to achieve project goals. This will be evident in how I engage with stakeholders and solicit input during the enhancement process.
+-	Design and evaluate computing solutions: Through enhancements such as integrating barcode scanning and implementing advanced database functionality, I will showcase skills in problem-solving, critical thinking, and evaluating alternative solutions. I will also manage trade-offs in design choices, considering factors such as performance, usability, and scalability.
+-	Demonstrate an ability to use well-founded and innovative techniques: I will showcase proficiency in utilizing well-founded techniques such as algorithm design principles and software engineering best practices. Additionally, I will demonstrate innovation by incorporating advanced features and exploring cutting-edge technologies to enhance the functionality and efficiency of the Inventory App.
+
 
 # How do the specific skills you will demonstrate align with your career plans related to your degree?
 
