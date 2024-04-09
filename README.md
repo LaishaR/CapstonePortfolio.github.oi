@@ -23,6 +23,12 @@ The specific skills I aim to demonstrate align closely with my career plans in s
 # How does this contribute to the specialization you are targeting for your career?
 The skills I will demonstrate contribute directly to the specialization I am targeting in software development, particularly in the mobile and database domains. By enhancing the Inventory App with advanced features such as barcode scanning and data mining, I am not only broadening my skill set but also deepening my expertise in areas that are highly relevant to my career specialization. This will make me a competitive candidate for roles that require expertise in mobile app development, algorithm design, and database management.
 
+# INVENTORY APP BEFORE
+![Inventory App All Items](/assets/AddItem.png)
+
+
+
+
 # ENCHANCEMENT ONE: SOFTWARE ENGINEERING AND DESIGN
 The artifact in category one is an Android application called "Inventory App" It was created during my mobile architecture and programming course (CS 360) to serve as a tool for managing inventory efficiently. The application allows users to add new items to their inventory, including capturing item details and images through the device's camera, and storing them in a 
 SQLite database. I selected this artifact for inclusion in my ePortfolio because it demonstrates my skills and abilities in Android app development, particularly in implementing user interfaces, handling 
