@@ -23,6 +23,9 @@ The specific skills I aim to demonstrate align closely with my career plans in s
 # How does this contribute to the specialization you are targeting for your career?
 The skills I will demonstrate contribute directly to the specialization I am targeting in software development, particularly in the mobile and database domains. By enhancing the Inventory App with advanced features such as barcode scanning and data mining, I am not only broadening my skill set but also deepening my expertise in areas that are highly relevant to my career specialization. This will make me a competitive candidate for roles that require expertise in mobile app development, algorithm design, and database management.
 
+# Code Review 
+![Inventory App Code Review ](/assets/InventoryAppLaishaR.mp4)
+
 # INVENTORY APP BEFORE
 [Inventory App Add Items |](/assets/AddItem.png)
 [Inventory App All Items |](/assets/AllItems.png)
