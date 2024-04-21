@@ -33,6 +33,8 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class AllItems extends AppCompatActivity {
@@ -41,14 +43,14 @@ public class AllItems extends AppCompatActivity {
     private SearchView searchBar;
     private DBHelper dbHelper;
     private ItemAdapter itemAdapter;
+    private List<ItemModel> allItems; // Sorted list of items
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.all_items_layout);
-        // Find and assign the back button view.
         back_button = findViewById(R.id.back);
-        // Set onClickListener for the back button to finish the activity.
+
         back_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,30 +58,27 @@ public class AllItems extends AppCompatActivity {
             }
         });
 
-        // Find and assign the SearchView.
         searchBar = findViewById(R.id.searchBar);
-
-        // Expand the SearchView by default.
         searchBar.setIconified(false);
 
-        // Initialize the database helper.
         dbHelper = new DBHelper(this);
-        // Find and assign the RecyclerView.
+
         recyclerView = findViewById(R.id.recyclerViewAllItems);
-        // Set up RecyclerView with GridLayoutManager and fixed size.
         recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
         recyclerView.setHasFixedSize(true);
-        // Initialize itemAdapter with an empty list initially.
-        itemAdapter = new ItemAdapter(new ArrayList<>());
+
+        allItems = dbHelper.getAllItems();
+        // Sort items by name for binary search
+        Collections.sort(allItems, new Comparator<ItemModel>() {
+            @Override
+            public int compare(ItemModel item1, ItemModel item2) {
+                return item1.getItemName().compareTo(item2.getItemName());
+            }
+        });
+
+        itemAdapter = new ItemAdapter(allItems);
         recyclerView.setAdapter(itemAdapter);
 
-// Fetch items from the database.
-        List<ItemModel> allItems = dbHelper.getAllItems();
-
-// Update the existing itemAdapter with the fetched items.
-        itemAdapter.setItems(allItems);
-
-// Set listener for changes in SearchView text.
         searchBar.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -88,13 +87,37 @@ public class AllItems extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                // Filter the itemAdapter based on the search query.
-                if (itemAdapter != null) {
-                    itemAdapter.getFilter().filter(newText);
+                if (!TextUtils.isEmpty(newText)) {
+                    // Perform binary search for the item
+                    int position = binarySearch(allItems, newText);
+                    if (position != -1) {
+                        recyclerView.smoothScrollToPosition(position);
+                    }
                 }
                 return true;
             }
         });
     }
+
+    // Binary search implementation
+    // Efficiency: This method demonstrates efficient search operation by using binary search algorithm
+    // Time Complexity: O(log n), where n is the number of items in the inventory list
+    private int binarySearch(List<ItemModel> items, String query) {
+        int low = 0;
+        int high = items.size() - 1;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            String itemName = items.get(mid).getItemName();
+            int comparison = itemName.compareTo(query);
+            if (comparison == 0) {
+                return mid; // Item found
+            } else if (comparison < 0) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return -1; // Item not found
+    }
 }
-//END
