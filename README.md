@@ -1,8 +1,5 @@
-# My Capstone Project
-This github.io website contains the capstone project for my CS-499 class at Southern New Hampshire University. The assignment was to take a final project from a previous class and enhance it in three areas: software design, data structures and algorithms, and databases.
-
-# About me 
-In the Fall of 2021, I started my journey in the Computer Science program while pursuing my biology degree. In the spring of 2021, despite graduating holding an associate degree in biology, I made the bold decision to switch majors and schools, I switched my major to Computer science with a minor in Software Engineering. I was driven by the belief in the importance of technology and programming. Despite being relatively new to the program, my enthusiasm and dedication have propelled me forward, eagerly embracing every opportunity to expand my knowledge and skills in this dynamic field. I’ve always aspired to make a positive impact in the world, and with technology playing an increasingly vital role in our daily lives, I’m determined to be a part of that transformative change.
+# Welcome introduction
+Hello, my name is Laisha Ramos. This GitHub.io website contains the capstone project for my CS-499 class at Southern New Hampshire University. The objective of this ePortfolio is to demonstrate skills and abilities I have learned. This ePortfolio comprises the professional self-assessment, the code review, and three enhancements to artifacts I completed throughout this program. Each of the three artifacts will correspond to demonstrated skills and abilities in the categories of software design and engineering, algorithms and data structures, and databases, all while adhering to the program's five course outcomes.
 
 #	What have you learned while in the program? List three of the most important concepts or skills you have learned.
 Throughout my academic journey in the program, I have gained valuable knowledge and skills in various aspects of computer science and software engineering. Three of the most important concepts or skills I have learned include:
