@@ -29,7 +29,7 @@ handling, code refactoring, optimization, and input validation. The addition of 
 the app's functionality and user experience. During the process of enhancing and modifying the artifact, I learned the importance of thorough testing and error handling, especially when integrating third-party libraries. I also 
 gained experience in optimizing code for performance and refactoring to improve readability and maintainability. Challenges I faced included managing permissions properly and ensuring compatibility with different Android versions and devices. However, through experimentation and research, I was able to overcome these challenges and successfully implement the desired features. Overall, the process of enhancing and modifying the artifact was a valuable learning experience that enhanced my skills
 
-ENCHANCED CODE: [Inventory App Add Item barcode|](/EnchancementOne/AddItem.java)
+ENCHANCED CODE: [Inventory App Add Item barcode](/EnchancementOne/AddItem.java)
 
 # ENCHANCEMENT TWO: ALGORITHMS AND DATA STRUCTURES 
 [Inventory App All Items Updated |](/assets/AllItemsUpdated.jpg)
@@ -41,6 +41,8 @@ The artifact was improved by implementing an optimized search functionality usin
 development. Moreover, including error handling mechanisms underscores my commitment to ensuring robustness in software systems. Throughout the process of enhancing and modifying the artifact, I gained valuable 
 insights into the practical application of algorithms and data structures in software development. Implementing the binary search algorithm within the Android application context required careful consideration of efficiency and integration with existing code. Challenges included ensuring compatibility with the RecyclerView setup and addressing edge cases in the search functionality. Overall, this experience reinforced the importance of algorithmic efficiency and 
 robustness in software development, particularly within the constraints of mobile applications
+
+ENCHANCED CODE:
 
 # ENHANCEMENT THREE: DATABASES
   The artifact in category three is the "DBHelper" class, which manages database operations for the Inventory App. It includes methods for creating, updating, deleting, and querying database tables for users and items. Additionally, it now includes placeholders for data mining integration methods such as analyzing inventory trends, generating sales forecasts, and recommending restocking strategies.
