@@ -21,7 +21,7 @@ I conducted my first code review and quickly grasped its importance. The practic
 [Inventory User Profile |](/assets/UserProfile.png)
 
 # ENCHANCEMENT ONE: SOFTWARE ENGINEERING AND DESIGN
-[Inventory App Add Item Barcode Image|](/assets/AddItemBarcode.png)
+[Inventory App Add Item Barcode Image](/assets/AddItemBarcode.png)
 
 
 The artifact in category one is an Android application called "Inventory App" It was created during my mobile architecture and programming course (CS 360) to serve as a tool for managing inventory efficiently. The application allows users to "Add new items" to their inventory, including capturing item details and images through the device's camera, and storing them in a SQLite database. I selected this artifact for inclusion in my ePortfolio because it demonstrates my skills and abilities in Android app development, particularly in implementing user interfaces, handling 
@@ -36,6 +36,8 @@ ENCHANCED CODE: [Inventory App Add Item barcode](/EnchancementOne/AddItem.java)
 # ENCHANCEMENT TWO: ALGORITHMS AND DATA STRUCTURES 
 [Inventory App All Items Updated |](/assets/AllItemsUpdated.jpg)
 [Inventory App All Items Search |](/assets/AllItemsSearch.jpeg)
+
+
 The artifact in the data structures and algorithms category two is an Android Inventory application, specifically the "AllItems" activity of an inventory management app. This activity enables users to browse all items in the inventory and search for specific ones using a search bar. It was developed during my mobile architecture and programming course (CS 360) to streamline inventory management. The app allows users to add new items to their inventory, including 
 capturing item details and images via the device's camera, and storing them in an SQLite database. I chose to include this artifact in my ePortfolio because it showcases my skills in 
 implementing algorithms and data structures in Android software development. Enhancing the search functionality with a binary search algorithm demonstrates my proficiency in algorithm design and optimization for efficient search operations. Additionally, incorporating error handling mechanisms reflects my understanding of robust software development practices.
