@@ -21,7 +21,7 @@ I conducted my first code review and quickly grasped its importance. The practic
 [Inventory User Profile |](/assets/UserProfile.png)
 
 # ENCHANCEMENT ONE: SOFTWARE ENGINEERING AND DESIGN
-[Inventory App Add Item Barcode |](/assets/AddItemBarcode.png)
+[Inventory App Add Item Barcode Image|](/assets/AddItemBarcode.png)
 The artifact in category one is an Android application called "Inventory App" It was created during my mobile architecture and programming course (CS 360) to serve as a tool for managing inventory efficiently. The application allows users to "Add new items" to their inventory, including capturing item details and images through the device's camera, and storing them in a SQLite database. I selected this artifact for inclusion in my ePortfolio because it demonstrates my skills and abilities in Android app development, particularly in implementing user interfaces, handling 
 permissions, working with databases, and integrating third-party libraries. The code showcases my proficiency in Java programming, understanding of Android SDK components, and knowledge of software engineering principles.
 The artifact was improved by integrating a barcode scanning feature using the ZXing library. This enhancement adds functionality to the app by enabling users to scan barcodes to input item details quickly. Additionally, proper permissions handling for camera and storage access was implemented to ensure a smooth user experience. With this enhancement, I met the course objectives of demonstrating proficiency in error 
