@@ -29,7 +29,6 @@ handling, code refactoring, optimization, and input validation. The addition of 
 the app's functionality and user experience. During the process of enhancing and modifying the artifact, I learned the importance of thorough testing and error handling, especially when integrating third-party libraries. I also 
 gained experience in optimizing code for performance and refactoring to improve readability and maintainability. Challenges I faced included managing permissions properly and ensuring compatibility with different Android versions and devices. However, through experimentation and research, I was able to overcome these challenges and successfully implement the desired features. Overall, the process of enhancing and modifying the artifact was a valuable learning experience that enhanced my skills
 
-ORIGINAL CODE: [Inventory App Add Item barcode|](/InventoryAppOriginal/AddItem.java)
 ENCHANCED CODE: [Inventory App Add Item barcode|](/EnchancementOne/AddItem.java)
 
 # ENCHANCEMENT TWO: ALGORITHMS AND DATA STRUCTURES 
