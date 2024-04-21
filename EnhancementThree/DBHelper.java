@@ -77,35 +77,36 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        // Create user and items tables.
         db.execSQL(CREATE_TABLE_USERS);
         db.execSQL(CREATE_TABLE_ITEMS);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        // Handle database upgrades if needed
+        // Handle database upgrades if needed.
         db.execSQL(CREATE_TABLE_USERS);
         db.execSQL(CREATE_TABLE_ITEMS);
     }
 
-    // Add methods for user-related operations if needed
+    // Add methods for user-related operations if needed.
 
+    // Method to retrieve all items from the database.
     public List<ItemModel> getAllItems() {
         List<ItemModel> itemList = new ArrayList<>();
         String selectQuery = "SELECT * FROM " + TABLE_ITEMS;
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
-
+// Column indices
         int columnIndexId = cursor.getColumnIndex(COLUMN_ITEM_ID);
         int columnIndexName = cursor.getColumnIndex(COLUMN_ITEM_NAME);
         int columnIndexDescription = cursor.getColumnIndex(COLUMN_ITEM_DESCRIPTION);
         int columnIndexQuantity = cursor.getColumnIndex(COLUMN_QUANTITY);
         int columnIndexImageUrl = cursor.getColumnIndex(COLUMN_ITEM_IMAGE_URL);
-
+// Iterate through the cursor and retrieve item data.
         while (cursor.moveToNext()) {
             ItemModel item = new ItemModel();
 
-            // Check if the column exists before retrieving values
             if (columnIndexName != -1) {
                 item.setItemName(cursor.getString(columnIndexName));
             }
@@ -133,7 +134,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.close();
         return itemList;
     }
-
+// Method to insert a new item into the database.
     public long insertItem(ItemModel item) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -145,7 +146,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.close();
         return id;
     }
-
+//Method to update item details in the database.
     public void updateItemDetails(int itemId, String itemName, String itemDescription, int quantity, String imageUrl) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -160,7 +161,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.close();
         System.out.println("done : "+quantity);
     }
-
+// Method to delete an item from the database
     public boolean deleteItem(int itemId) {
         SQLiteDatabase db = this.getWritableDatabase();
         int affectedRows = db.delete(TABLE_ITEMS, COLUMN_ITEM_ID + " = ?", new String[]{""+itemId});
@@ -168,13 +169,12 @@ public class DBHelper extends SQLiteOpenHelper {
 
         return affectedRows > 0;
     }
-
+// Method to retrieve low inventory items from database.
     public List<ItemModel> getLowInventoryItems() {
         List<ItemModel> lowInventoryItems = new ArrayList<>();
 
-        // Assuming COLUMN_QUANTITY is the column representing item quantity in your database
         int lowInventoryThreshold = 5;
-
+// Example threshold for low inventory
         SQLiteDatabase db = this.getReadableDatabase();
 
         String[] projection = {
@@ -224,13 +224,13 @@ public class DBHelper extends SQLiteOpenHelper {
         return lowInventoryItems;
     }
 
-    // Method to analyze inventory trends
+    // Method to analyze inventory trends.
     public void analyzeInventoryTrends() {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        // Placeholder for inventory trend analysis
+        // Placeholder for inventory trend analysis.
 
-        // Query to fetch data for trend analysis
+        // Query to fetch data for trend analysis.
         String query = "SELECT " + COLUMN_ITEM_NAME + ", " + COLUMN_QUANTITY +
                 " FROM " + TABLE_ITEMS +
                 " ORDER BY " + COLUMN_QUANTITY + " DESC LIMIT 10";
@@ -256,29 +256,30 @@ public class DBHelper extends SQLiteOpenHelper {
         db.close();
     }
 
-    // Method to generate sales forecasts
+    // Method to generate sales forecast.
     public void generateSalesForecasts() {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        // Placeholder for generating sales forecasts
+        // Placeholder for generating sales forecasts.
 
-        // Query to fetch data for sales forecasting
+        // Query to fetch data for sales forecasting.
         String query = "SELECT " + COLUMN_ITEM_NAME + ", " + COLUMN_QUANTITY +
                 " FROM " + TABLE_ITEMS +
                 " WHERE " + COLUMN_QUANTITY + " > 0";
 
         Cursor cursor = db.rawQuery(query, null);
+        // Column indices.
         int nameColumnIndex = cursor.getColumnIndex(COLUMN_ITEM_NAME);
         int descriptionColumnIndex = cursor.getColumnIndex(COLUMN_ITEM_DESCRIPTION);
         int quantityColumnIndex = cursor.getColumnIndex(COLUMN_QUANTITY);
         int imageColumnIndex = cursor.getColumnIndex(COLUMN_ITEM_IMAGE_URL);
-        // Placeholder: Process cursor data for sales forecasting
+        // Placeholder: Process cursor data for sales forecasting.
         if (cursor != null) {
             while (cursor.moveToNext()) {
                 String itemName = cursor.getString(nameColumnIndex);
                 int quantity = cursor.getInt(quantityColumnIndex);
 
-                // Perform sales forecasting logic here
+                // Perform sales forecasting logic here.
                 System.out.println("Forecast for " + itemName + ": " + quantity + " units");
             }
             cursor.close();
@@ -287,30 +288,31 @@ public class DBHelper extends SQLiteOpenHelper {
         db.close();
     }
 
-    // Method to recommend restocking strategies
+    // Method to recommend restocking strategies.
     public void recommendRestockingStrategies() {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        // Placeholder for recommending restocking strategies
+        // Placeholder for recommending restocking strategies.
 
-        //Query to identify low inventory items for restocking
-        int lowInventoryThreshold = 10; // Example threshold for low inventory
+        //Query to identify low inventory items for restocking.
+        int lowInventoryThreshold = 10; // Example threshold for low inventory.
         String query = "SELECT " + COLUMN_ITEM_NAME + ", " + COLUMN_QUANTITY +
                 " FROM " + TABLE_ITEMS +
                 " WHERE " + COLUMN_QUANTITY + " < ?";
 
         Cursor cursor = db.rawQuery(query, new String[]{String.valueOf(lowInventoryThreshold)});
+        // Column indices.
         int nameColumnIndex = cursor.getColumnIndex(COLUMN_ITEM_NAME);
         int descriptionColumnIndex = cursor.getColumnIndex(COLUMN_ITEM_DESCRIPTION);
         int quantityColumnIndex = cursor.getColumnIndex(COLUMN_QUANTITY);
         int imageColumnIndex = cursor.getColumnIndex(COLUMN_ITEM_IMAGE_URL);
-        // Placeholder: Process cursor data to recommend restocking strategies
+        // Placeholder: Process cursor data to recommend restocking strategies.
         if (cursor != null) {
             while (cursor.moveToNext()) {
                 String itemName = cursor.getString(nameColumnIndex);
                 int quantity = cursor.getInt(quantityColumnIndex);
 
-                // Perform restocking strategy recommendation logic here
+                // Perform restocking strategy recommendation logic here.
                 System.out.println("Restock recommendation for " + itemName + ": Order " + (lowInventoryThreshold - quantity) + " units");
             }
             cursor.close();
@@ -320,3 +322,4 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
 }
+//END
