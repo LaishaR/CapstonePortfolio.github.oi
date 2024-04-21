@@ -21,7 +21,7 @@ The specific skills I aim to demonstrate align closely with my career plans in s
 The skills I will demonstrate contribute directly to the specialization I am targeting in software development, particularly in the mobile and database domains. By enhancing the Inventory App with advanced features such as barcode scanning and data mining, I am not only broadening my skill set but also deepening my expertise in areas that are highly relevant to my career specialization. This will make me a competitive candidate for roles that require expertise in mobile app development, algorithm design, and database management.
 
 # Code Review 
-[INVENTORY APP](https://youtu.be/QwXk6BVkTvo)
+I conducted my first code review and quickly grasped its importance. The practice of code review is significant because it enables developers, either individually or as part of a team, to dissect their application into specific code blocks and review them for aspects such as structure, documentation, variables, arithmetic operations, loops, branches, and defensive programming. This approach, from part to whole, allows programmers to break down their code into more manageable pieces for review, ultimately leading to a more defect-free product when passed to the Quality Assurance (QA) team. This code review will analyze each of the three original artifacts and discuss the enhancements I intend to make to each. You can find my published code review on YouTube by visiting [INVENTORY APP](https://youtu.be/QwXk6BVkTvo)
 
 # INVENTORY APP BEFORE
 [Inventory App Add Items |](/assets/AddItem.png)
