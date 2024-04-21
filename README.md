@@ -1,6 +1,7 @@
 # Welcome!
 Hello, my name is Laisha Ramos. This ePortfolio contains the capstone project for my CS-499 class at Southern New Hampshire University. The objective of this ePortfolio is to demonstrate skills and abilities I have learned. This ePortfolio comprises the professional self-assessment, the code review, and three enhancements of the chosen artifact that was created in my CS360 mobile architecture and programming course. The chosen artifact will correspond to demonstrated skills and abilities in the categories of software design and engineering, algorithms and data structures, and databases, all while adhering to the program's five course outcomes.
 
+#SELF ASSESSMENT
 
 # Aligning Skills with Career Goals in Software Development
 The specific skills I aim to demonstrate closely align with my career plans in software development and engineering. Proficiency in mobile application development, algorithm design, database management, and software engineering principles positions me for roles involving designing, developing, and maintaining software solutions for mobile platforms or enterprise applications. These skills contribute directly to my specialization in software development, particularly in mobile and database domains. Enhancing the Inventory App with features like barcode scanning and data mining not only broadens my skill set but also deepens my expertise in relevant areas, making me a competitive candidate for roles requiring proficiency in mobile app development, algorithm design, and database management
@@ -19,6 +20,9 @@ I conducted my first code review and quickly grasped its importance. The practic
 [Inventory App Login Screen |](/assets/LoginScreen.png)
 [Inventory Stock History |](/assets/StockHistory.png)
 [Inventory User Profile |](/assets/UserProfile.png)
+
+# COURSE OUTCOMES
+
 
 # ENCHANCEMENT ONE: SOFTWARE ENGINEERING AND DESIGN
 [Inventory App Add Item Barcode Image](/assets/AddItemBarcode.png)
