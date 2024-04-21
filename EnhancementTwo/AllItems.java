@@ -50,7 +50,7 @@ public class AllItems extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.all_items_layout);
         back_button = findViewById(R.id.back);
-
+// Click listener for back button
         back_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -68,7 +68,7 @@ public class AllItems extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
 
         allItems = dbHelper.getAllItems();
-        // Sort items by name for binary search
+        // Sort items by name for binary search.
         Collections.sort(allItems, new Comparator<ItemModel>() {
             @Override
             public int compare(ItemModel item1, ItemModel item2) {
@@ -88,7 +88,7 @@ public class AllItems extends AppCompatActivity {
             @Override
             public boolean onQueryTextChange(String newText) {
                 if (!TextUtils.isEmpty(newText)) {
-                    // Perform binary search for the item
+                    // Perform binary search for the item.
                     int position = binarySearch(allItems, newText);
                     if (position != -1) {
                         recyclerView.smoothScrollToPosition(position);
@@ -100,8 +100,8 @@ public class AllItems extends AppCompatActivity {
     }
 
     // Binary search implementation
-    // Efficiency: This method demonstrates efficient search operation by using binary search algorithm
-    // Time Complexity: O(log n), where n is the number of items in the inventory list
+    // Efficiency: This method demonstrates efficient search operation by using the binary search algorithm.
+    // Time Complexity: O(log n), where n is the number of items in the inventory list.
     private int binarySearch(List<ItemModel> items, String query) {
         int low = 0;
         int high = items.size() - 1;
@@ -121,3 +121,4 @@ public class AllItems extends AppCompatActivity {
         return -1; // Item not found
     }
 }
+//END
