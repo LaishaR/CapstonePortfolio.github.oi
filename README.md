@@ -24,9 +24,6 @@ I conducted my first code review and quickly grasped its importance. The practic
 [Inventory Stock History |](/assets/StockHistory.png)
 [Inventory User Profile |](/assets/UserProfile.png)
 
-# COURSE OUTCOMES
-
-
 # ENCHANCEMENT ONE: SOFTWARE ENGINEERING AND DESIGN
 [Inventory App Add Item Barcode Image](/assets/AddItemBarcode.png)
 
