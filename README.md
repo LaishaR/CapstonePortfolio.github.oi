@@ -8,6 +8,11 @@ In the Fall of 2021, I embarked on a transformative journey by transitioning fro
 The specific skills I aim to demonstrate closely align with my career plans in software development and engineering. Proficiency in mobile application development, algorithm design, database management, and software engineering principles positions me for roles involving designing, developing, and maintaining software solutions for mobile platforms or enterprise applications. These skills contribute directly to my specialization in software development, particularly in mobile and database domains. Enhancing the Inventory App with features like barcode scanning and data mining not only broadens my skill set but also deepens my expertise in relevant areas, making me a competitive candidate for roles requiring proficiency in mobile app development, algorithm design, and database management
 
 # CS499 Journal 
+[Journal 4 |](/Journal/CS499Journal4LaishaRamos.pdf)
+
+[Journal 5 |](/Journal/CS499Journal5LaishaRamos.pdf)
+
+[Journal 6 |](/Journal/CS499Journal6LaishaRamos.pdf)
 
 # Code Review 
 I conducted my first code review and quickly grasped its importance. The practice of code review is significant because it enables developers, either individually or as part of a team, to dissect their application into specific code blocks and review them for aspects such as structure, documentation, variables, arithmetic operations, loops, branches, and defensive programming. This approach, from part to whole, allows programmers to break down their code into more manageable pieces for review, ultimately leading to a more defect-free product when passed to the Quality Assurance (QA) team. This code review will analyze the original artifact and discuss the three enhancements I intend to make to each. You can find my published code review on YouTube by visiting [CODE REVIEW: INVENTORY APP](https://youtu.be/QwXk6BVkTvo)
