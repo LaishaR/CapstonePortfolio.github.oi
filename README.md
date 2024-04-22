@@ -25,11 +25,11 @@ Course Outcome 5: While prioritizing functionality and usability, I indirectly c
 
 
 # CS499 Journal 
-[ Journal 4 |](/Journal/CS499Journal4LaishaRamos.pdf)  An Academic Reflection: Exploring Career aspirations and future prospects in the field of Computer Science, alongside Artifact updates.
+[ Journal4|](/Journal/CS499Journal4LaishaRamos.pdf)  An Academic Reflection: Exploring Career aspirations and future prospects in the field of Computer Science, alongside Artifact updates.
 
-[ Journal 5 |](/Journal/CS499Journal5LaishaRamos.pdf) Academic Reflection: Exploring two emerging trends in the field of Computer Science, alongside Artifact Updates.
+[ Journal5 |](/Journal/CS499Journal5LaishaRamos.pdf) Academic Reflection: Exploring two emerging trends in the field of Computer Science, alongside Artifact Updates.
 
-[ Journal 6 |](/Journal/CS499Journal6LaishaRamos.pdf)  Academic Reflection: Examining two emerging technologies in the field of Computer Science, alongside Artifact updates
+[ Journal6 |](/Journal/CS499Journal6LaishaRamos.pdf)  Academic Reflection: Examining two emerging technologies in the field of Computer Science, alongside Artifact updates
 
 # Code Review 
 I conducted my first code review and quickly grasped its importance. The practice of code review is significant because it enables developers, either individually or as part of a team, to dissect their application into specific code blocks and review them for aspects such as structure, documentation, variables, arithmetic operations, loops, branches, and defensive programming. This approach, from part to whole, allows programmers to break down their code into more manageable pieces for review, ultimately leading to a more defect-free product when passed to the Quality Assurance (QA) team. This code review will analyze the original artifact and discuss the three enhancements I intend to make to each. You can find my published code review on YouTube by visiting [CODE REVIEW: INVENTORY APP](https://youtu.be/QwXk6BVkTvo)
