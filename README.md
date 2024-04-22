@@ -46,7 +46,7 @@ I conducted my first code review and quickly grasped its importance. The practic
 [Inventory Stock History |](/assets/StockHistory.png)
 [Inventory User Profile |](/assets/UserProfile.png)
 
-# ENCHANCEMENT ONE: SOFTWARE ENGINEERING AND DESIGN
+# ENHANCEMENT ONE: SOFTWARE ENGINEERING AND DESIGN
 [Inventory App enhanced Add Item Barcode ](/assets/AddItemBarcode.png)
 
 
@@ -56,9 +56,9 @@ The artifact was improved by integrating a barcode scanning feature using the ZX
 
 During the process of enhancing and modifying the artifact, I learned the importance of thorough testing and error handling, especially when integrating third-party libraries. I also gained experience in optimizing code for performance and refactoring to improve readability and maintainability. Challenges I faced included managing permissions properly and ensuring compatibility with different Android versions and devices. However, through experimentation and research, I was able to overcome these challenges and successfully implement the desired features. Overall, the process of enhancing and modifying the artifact was a valuable learning experience that enhanced my skills.
 
-ENCHANCED CODE: [Inventory App Add Item barcode](/EnhancementOne/AddItem.java)
+ENHANCED CODE: [Inventory App Add Item barcode](/EnhancementOne/AddItem.java)
 
-# ENCHANCEMENT TWO: ALGORITHMS AND DATA STRUCTURES 
+# ENHANCEMENT TWO: ALGORITHMS AND DATA STRUCTURES 
 [Inventory App enhanced All Items Updated |](/assets/AllItemsUpdated.jpg)
 [Inventory App enhanced All Items Search |](/assets/AllItemsSearch.jpeg)
 
@@ -71,7 +71,7 @@ The artifact was improved by implementing an optimized search functionality usin
 Throughout the process of enhancing and modifying the artifact, I gained valuable insights into the practical application of algorithms and data structures in software development. Implementing the binary search algorithm within the Android application context required careful consideration of efficiency and integration with existing code. Challenges included ensuring compatibility with the RecyclerView setup and addressing edge cases in the search functionality. Overall, this experience reinforced the importance of algorithmic efficiency and robustness in software development, particularly within the constraints of mobile applications.
 
 
-ENCHANCED CODE: [Inventory App All Items](/EnhancementTwo/AllItems.java)
+ENHANCED CODE: [Inventory App All Items](/EnhancementTwo/AllItems.java)
 
 # ENHANCEMENT THREE: DATABASES
 
@@ -86,4 +86,4 @@ The enhancements made to the DBHelper class align with the course objectives rel
 During the process of enhancing and modifying the DBHelper class, I gained valuable insights into database management techniques and data analysis methods. I learned how to integrate data mining functionalities into Android applications to extract meaningful insights from large datasets. One of the challenges I faced was ensuring the efficiency and performance of database queries, especially when dealing with large datasets. Additionally, designing and implementing data mining algorithms posed challenges in terms of complexity and resource utilization. However, through iterative development and testing, I was able to overcome these challenges and successfully implement the desired enhancements to the DBHelper class. Overall, the enhancement process provided a valuable learning experience and improved my skills in database management and software development.
 
 
-  ENCHANCED CODE: [Inventory App DBHelper](/EnhancementThree/DBHelper.java)
+  ENHANCED CODE: [Inventory App DBHelper](/EnhancementThree/DBHelper.java)
