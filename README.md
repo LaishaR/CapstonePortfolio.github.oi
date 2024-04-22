@@ -27,7 +27,7 @@ Course Outcome 5: While prioritizing functionality and usability, I indirectly c
 # CS499 Journal 
 [Journal 4 |](/Journal/CS499Journal4LaishaRamos.pdf)  An Academic Reflection: Exploring Career aspirations and future prospects in the field of Computer Science, alongside Artifact updates.
 
-[Journal 5 |](/Journal/CS499Journal5LaishaRamos.pdf)  Academic Reflection: Exploring two emerging trends in the field of Computer Science, alongside Artifact Updates.
+[Journal 5 |](/Journal/CS499Journal5LaishaRamos.pdf) Academic Reflection: Exploring two emerging trends in the field of Computer Science, alongside Artifact Updates.
 
 [Journal 6 |](/Journal/CS499Journal6LaishaRamos.pdf)  Academic Reflection: Examining two emerging technologies in the field of Computer Science, alongside Artifact updates
 
